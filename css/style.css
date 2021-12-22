@@ -1,8 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    border: 0;
-    outline: none;
 }
 
 body {
@@ -30,6 +28,13 @@ h3 {
     font-size: 2em;
 }
 
+.controles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 button {
     margin: 0 5px 4px;
     padding: 5px 0;
@@ -37,8 +42,20 @@ button {
     border-radius: 5px;
     box-shadow: 0 4px rgba(0, 0, 0, 0.75);
     font-size: 16px;
-    color: #fff;
+    border: 0;
+    outline: 0;
+    color: rgb(0, 0, 0);
     cursor: pointer;
     font-weight: bold;
+    justify-content: center;
 }
-    
+
+button:active {
+    margin-bottom: 0;
+    margin-top: 4px;
+    box-shadow: none;
+}
+
+button:hover {
+    background-color: rgb(153, 136, 230);
+}
