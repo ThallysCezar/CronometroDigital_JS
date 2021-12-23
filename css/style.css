@@ -1,12 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 body {
     background: #4a69bd;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    height: 100%;
 }
 
 .centralizar {
@@ -35,7 +34,12 @@ h3 {
     font-size: 2em;
 }
 
+.controles {
+    display: flex;
+}
+
 button {
+    flex-grow: 1;
     margin: 0 5px 4px;
     padding: 5px 0;
     width: 150px;
@@ -57,4 +61,11 @@ button:active {
 
 button:hover {
     background-color: rgb(153, 136, 230);
+}
+
+.display {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
