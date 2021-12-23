@@ -9,6 +9,13 @@ body {
     height: 100%;
 }
 
+.centralizar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 .relogio {
     width: 800px;
     margin: 30px auto;
@@ -31,13 +38,6 @@ h3 {
     font-size: 2em;
 }
 
-.controles {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
 button {
     margin: 0 5px 4px;
     padding: 5px 0;
@@ -50,7 +50,6 @@ button {
     color: rgb(0, 0, 0);
     cursor: pointer;
     font-weight: bold;
-    justify-content: center;
 }
 
 button:active {
